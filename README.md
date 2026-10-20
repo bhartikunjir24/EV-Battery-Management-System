@@ -147,22 +147,20 @@ EV-Battery-Management-System/
 
 The circuit diagram illustrates the hardware connections and overall arrangement of the EV Battery Management System. It serves as a reference for understanding the interfacing between the ESP32 controller, battery voltage measurement inputs, LCD display, protection relay, and other connected peripherals.
 
-### Circuit Diagram
+## Circuit Diagram
 
-![EV Battery Management System Circuit Diagram](Circuit_Diagram.png)
-
+![EV Battery Management System Circuit Diagram](./Cicuit_Diagram.png)
 **File:** `Circuit_Diagram.png`
 
 The diagram provides a visual reference for the hardware implementation and supports understanding of the system's embedded control and battery monitoring architecture.
 
 ## Demonstration
 
-The repository includes a demonstration video showcasing the project.
+Watch the demonstration video to see the EV Battery Management System in operation.
+
+[▶ Click here to watch the demonstration video](./demonstration_video.mp4)
 
 **File:** `demonstration_video.mp4`
-
-The video can be used to demonstrate the system's working behavior, embedded control, and available monitoring features.
-
 ---
 
 ## How to Build and Run
