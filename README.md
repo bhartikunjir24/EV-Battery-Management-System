@@ -1,6 +1,6 @@
 # EV Battery Management System (EV-BMS)
 
-> **Project Name:** EV Battery Management System — Embedded Control, Fault Protection, and IoT Analytics
+**Project Name:** EV Battery Management System — Embedded Control, Fault Protection, and IoT Analytics
 
 ## Project Overview
 
@@ -31,6 +31,7 @@ The project uses an ESP32-based controller with Blynk connectivity for remote mo
 - Risk score and estimated state-of-charge monitoring
 - System uptime and fault-count tracking
 - Blynk analytics dashboard with historical charts and maintenance recommendations
+
 ---
 
 ## Hardware Components
@@ -61,14 +62,14 @@ The project uses an ESP32-based controller with Blynk connectivity for remote mo
 
 ## System Workflow
 
-1. **Battery monitoring:** The controller reads the three battery cell voltage values.
-2. **Safety monitoring:** The firmware checks operating conditions and detects relevant faults.
-3. **Fault management:** The fault state machine determines the appropriate operating state and manages fault transitions and recovery.
-4. **Protection control:** The protection logic controls the relay according to the system's safety conditions.
-5. **Local display:** The LCD displays battery measurements, operating status, and fault information without unnecessary flickering.
-6. **Telemetry transmission:** The system publishes battery measurements, fault events, system state, and connectivity information to Blynk.
-7. **Analytics and visualization:** The dashboard presents system health indicators, voltage imbalance, estimated battery charge, fault counts, and historical trends.
-8. **Recovery and monitoring:** When a fault condition clears, the firmware applies the defined recovery logic and continues monitoring.
+1. **Battery Monitoring:** The controller reads the three battery cell voltage values.
+2. **Safety Monitoring:** The firmware checks operating conditions and detects relevant faults.
+3. **Fault Management:** The fault state machine determines the appropriate operating state and manages fault transitions and recovery.
+4. **Protection Control:** The protection logic controls the relay according to the system's safety conditions.
+5. **Local Display:** The LCD displays battery measurements, operating status, and fault information without unnecessary flickering.
+6. **Telemetry Transmission:** The system publishes battery measurements, fault events, system state, and connectivity information to Blynk.
+7. **Analytics and Visualization:** The dashboard presents system health indicators, voltage imbalance, estimated battery charge, fault counts, and historical trends.
+8. **Recovery and Monitoring:** When a fault condition clears, the firmware applies the defined recovery logic and continues monitoring.
 
 ---
 
@@ -166,39 +167,42 @@ EV-Battery-Management-System/
 ├── demonstration_video.mp4
 └── README.md
 ```
-```
+
 ---
+
 ## Circuit Diagram
 
 The circuit diagram illustrates the hardware connections and overall arrangement of the EV Battery Management System. It serves as a reference for understanding the interfacing between the ESP32 controller, battery voltage measurement inputs, LCD display, protection relay, and other connected peripherals.
 
-## Circuit Diagram
-
 ![EV Battery Management System Circuit Diagram](./Cicuit_Diagram.png)
-**File:** `Circuit_Diagram.png`
+
+**File:** `Cicuit_Diagram.png`
 
 The diagram provides a visual reference for the hardware implementation and supports understanding of the system's embedded control and battery monitoring architecture.
+
+---
 
 ## Demonstration
 
 Watch the demonstration video to see the EV Battery Management System in operation.
 
-[▶ Click here to watch the demonstration video](./demonstration_video.mp4)
+[▶ Click here to watch the Demonstration Video](./Demonstration_Video.mp4)
 
-**File:** `demonstration_video.mp4`
+**File:** `Demonstration_Video.mp4`
+
 ---
 
 ## How to Build and Run
 
 1. Install Visual Studio Code and the PlatformIO extension.
-2. Open the project firmware in PlatformIO.
+2. Open the required task's firmware source code in PlatformIO.
 3. Connect the ESP32 development board and required hardware.
 4. Configure the battery voltage inputs, LCD, relay, and other peripherals according to the circuit connections.
 5. Configure the Blynk template, device credentials, and virtual datastreams.
-6. Build and upload the firmware to the ESP32.
+6. Build and upload the firmware to the ESP32 using the appropriate task configuration.
 7. Open the Blynk Web Dashboard and verify that live measurements and system status are updating.
 
-**Important:** The repository's currently uploaded task archives should be extracted and integrated into the complete firmware project before treating this as a single ready-to-build project. Exact build instructions depend on the final integrated source tree and its configuration files.
+**Important:** The repository is organized into six individual task folders containing their respective documentation, source code, and test results. These task folders are provided for reference and individual implementation. A complete integrated firmware project may require combining the relevant modules and configuring the required project files.
 
 ---
 
@@ -218,4 +222,3 @@ Watch the demonstration video to see the EV Battery Management System in operati
 ## Author
 
 **Bharti Kunjir**
-
