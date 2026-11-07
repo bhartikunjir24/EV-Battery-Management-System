@@ -127,20 +127,45 @@ The virtual pins listed above describe the dashboard configuration. Correct live
 
 ## Repository Structure
 
-The GitHub repository currently contains the following uploaded files:
+The repository is organized into six individual task folders. Each task contains separate documentation, source code, and test results for easy navigation and understanding.
 
 ```text
 EV-Battery-Management-System/
 │
-├── README.md
-├── Circuit_Diagram.png
+├── Task 1 - Modular Battery Management Engine/
+│   ├── 01_Documentation/
+│   ├── 02_Code/
+│   └── 03_TestResults/
+│
+├── Task 2 - Non-Blocking Protection Relay and Safety System/
+│   ├── 01_Documentation/
+│   ├── 02_Code/
+│   └── 03_TestResults/
+│
+├── Task 3 - Flicker-Free LCD Display Engine/
+│   ├── 01_Documentation/
+│   ├── 02_Code/
+│   └── 03_TestResults/
+│
+├── Task 4 - Fault State Machine with Structured Recovery/
+│   ├── 01_Documentation/
+│   ├── 02_Code/
+│   └── 03_TestResults/
+│
+├── Task 5 - Event-Driven Telemetry and Live Blynk Dashboard/
+│   ├── 01_Documentation/
+│   ├── 02_Code/
+│   └── 03_TestResults/
+│
+├── Task 6 - Enterprise Blynk Analytics and Decision Dashboard/
+│   ├── 01_Documentation/
+│   ├── 02_Code/
+│   └── 03_TestResults/
+│
+├── Cicuit_Diagram.png
 ├── demonstration_video.mp4
-├── enterprise_blynk_analytics_and_decision_dashboard.zip
-├── event_driven_telemetry_and_live_blynk_dashboard.zip
-├── fault_state_machine_with_structured_recovery.zip
-├── flicker-free_lcd_display_engine.zip
-├── modular_battery_management_system.zip
-└── non-blocking_protection_relay_and_safety_system.zip
+└── README.md
+```
 ```
 ---
 ## Circuit Diagram
