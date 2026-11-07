@@ -186,7 +186,7 @@ The diagram provides a visual reference for the hardware implementation and supp
 
 Watch the demonstration video to see the EV Battery Management System in operation.
 
-[▶ Click here to watch the Demonstration Video](./Demonstration_Video.mp4)
+[▶ Click here to watch the demonstration video](./Demonstration_Video.mp4)
 
 **File:** `Demonstration_Video.mp4`
 
